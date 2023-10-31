@@ -45,6 +45,10 @@ public class SettingsController : MonoBehaviour
         SoundManager.Instance.ChangeVolume(musicSlider.value);
     }
 
+    /// <summary>
+    /// Save the game and wait for the saving process to finish and then back to the start scene
+    /// </summary>
+    /// <returns></returns>
     IEnumerator WaitForSavingBack()
     {
         while (GameManager.Instance.isSaved == false)

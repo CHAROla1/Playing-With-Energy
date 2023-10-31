@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-
+/// <summary>
+/// Link to the energy buying objects.
+/// </summary>
 public class BuyEnergyController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI energyAmount;

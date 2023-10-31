@@ -7,6 +7,9 @@ using UnityEngine.UI;
 
 namespace UltimateClean
 {
+    /// <summary>
+    /// The base class for all loading bar controller
+    /// </summary>
     public class LoadingBarController : MonoBehaviour
     {
         public TextMeshProUGUI text;

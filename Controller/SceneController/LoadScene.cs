@@ -22,6 +22,10 @@ public class LoadScene : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Load the city scene and the UI scene asynchronously
+    /// </summary>
+    /// <returns></returns>
     IEnumerator LoadYourAsyncScene()
     {
         yield return new WaitForSeconds(1.0f);

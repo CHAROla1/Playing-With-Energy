@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+/// <summary>
+/// Offline awards UI Pop Up
+/// </summary>
 public class OfflineAwardsController : MonoBehaviour
 {
     [SerializeField] TextMeshProUGUI offlineTimeText;

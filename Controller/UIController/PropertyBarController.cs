@@ -2,7 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
+/// <summary>
+/// Update the property bar in time
+/// </summary>
 public class PropertyBarController : MonoBehaviour
 {
     public TextMeshProUGUI moneyBar;

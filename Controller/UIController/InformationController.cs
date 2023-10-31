@@ -5,6 +5,9 @@ using TMPro;
 
 namespace UltimateClean
 {
+    /// <summary>
+    /// Player information panel controller
+    /// </summary>
     public class InformationController : MonoBehaviour
     {
 

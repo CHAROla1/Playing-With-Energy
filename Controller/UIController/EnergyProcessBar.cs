@@ -75,6 +75,12 @@ public class EnergyProcessBar : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Update the energy process bar and the semantic data percentage.
+    /// </summary>
+    /// <param name="levelFactor"></param>
+    /// <param name="semanticName"></param>
+    /// <param name="diff"></param>
     public void UpdateEnergy(LevelFactor levelFactor, string semanticName, float diff)
     {
         if (levelFactor == EnergyConsumption.Instance)

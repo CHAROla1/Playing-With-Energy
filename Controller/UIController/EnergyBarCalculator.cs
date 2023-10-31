@@ -36,6 +36,9 @@ public class EnergyBarCalculator : MonoBehaviour
         bubble.SetActive(false);
     }
 
+    /// <summary>
+    /// Add energy to the player.
+    /// </summary>
     public void IncreaseEnergy()
     {
         energy = BuildingManager.Instance.GetTotalEnergyProvision();

@@ -170,6 +170,11 @@ public class DialogCreator : MonoBehaviour
         }
     }
 
+    /// <summary>
+    /// Separate the text into lines
+    /// </summary>
+    /// <param name="text"></param>
+    /// <returns></returns>
     List<string> GetTextList(string text)
     {
         List<string> textList = new List<string>();
@@ -181,6 +186,11 @@ public class DialogCreator : MonoBehaviour
         return textList;
     }
 
+    /// <summary>
+    /// Combine the lines into text
+    /// </summary>
+    /// <param name="textList"></param>
+    /// <returns></returns>
     static string GetText(List<string> textList)
     {
         string text = "";

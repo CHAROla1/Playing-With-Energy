@@ -58,6 +58,10 @@ public class Building
         return m_contributions;
     }
 
+    /// <summary>
+    /// Calculate the total contribution of the building
+    /// </summary>
+    /// <returns></returns>
     public int GetTotalContribution()
     {
         int total = 0;
@@ -89,6 +93,10 @@ public class Building
         return m_itemsInstalled;
     }
 
+    /// <summary>
+    /// Install the item to the building and update the semantic data
+    /// </summary>
+    /// <param name="item"></param>
     public void InstallItem(ShopItem item)
     {
         if (m_itemsInstalled.ContainsKey(item.id))
@@ -142,6 +150,7 @@ public class Building
         m_itemsInstalled.Remove(id);
     }
 
+    //TODO: JIAJING YI
     void updateSemanticDataWithDiff(string semanticData, GameObject building, int diff)
     {
         BuildingLoader.Instance.updateSemanticDataWithDiff(semanticData, building, diff);

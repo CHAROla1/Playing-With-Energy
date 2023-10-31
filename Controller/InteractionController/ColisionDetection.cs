@@ -2,6 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+/// <summary>
+/// Use this script to detect the collision of the collider with the buildings
+/// </summary>
 public class ColisionDetection : MonoBehaviour
 {
     public List<GameObject> collisionObjects { get; set; } // list of objects that are detected by the collider,

@@ -13,6 +13,10 @@ namespace UltimateClean
         GameObject semanticFactor;
         Dictionary<string, int> semanticDataContributions;
 
+        /// <summary>
+        /// Show the level factor name and the semantic data contributions
+        /// </summary>
+        /// <param name="levelFactor"></param>
         public void SetLevelFactor(LevelFactor levelFactor)
         {
             this.factorName.text = levelFactor.name();

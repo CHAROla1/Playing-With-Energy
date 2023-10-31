@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace UltimateClean
 {
+    /// <summary>
+    /// Create the level factor UI
+    /// </summary>
     public class LevelFactorCreator : MonoBehaviour
     {
         public GameObject levelFactorPrefab;

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
-
+/// <summary>
+/// Level Up UI Pop Up
+/// </summary>
 public class LevelUpController : MonoBehaviour
 {
     [SerializeField] private TextMeshProUGUI originLevel;

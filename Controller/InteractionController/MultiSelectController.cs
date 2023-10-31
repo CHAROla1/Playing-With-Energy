@@ -156,6 +156,9 @@ public class MultiSelectController : MonoBehaviour
         yield return null;
     }
 
+    /// <summary>
+    /// Draw the rectangle
+    /// </summary>
     void OnPostRender()
     {
         //drawing is recommended to put in OnPostRender()
@@ -194,7 +197,12 @@ public class MultiSelectController : MonoBehaviour
         }
     }
 
-
+    /// <summary>
+    /// Check if the buildings are in the rectangle
+    /// </summary>
+    /// <param name="start"></param>
+    /// <param name="end"></param>
+    /// <returns></returns>
     IEnumerator CheckSelection(Vector3 start, Vector3 end)
     {
         Vector3 p1 = Vector3.zero;

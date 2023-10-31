@@ -25,6 +25,10 @@ public class BuildingManager : MonoBehaviour
 
     }
 
+    /// <summary>
+    /// Initialize the buildings dictionary
+    /// </summary>
+    /// <returns></returns>
     private IEnumerator LoadBuildings()
     {
         // load from the file
@@ -71,6 +75,9 @@ public class BuildingManager : MonoBehaviour
         yield return null;
     }
 
+    /// <summary>
+    /// Update the energy provision/consumption of the buildings
+    /// </summary>
     public void UpdateBuildingsEnergy()
     {
         if (totalEnergyProvision == 0)
